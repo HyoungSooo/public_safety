@@ -9,3 +9,7 @@ def index(request):
 
 def about_us(request):
     return render(request, 'indexpage/about.html')
+
+def portfolio(request):
+  return render(request, 'indexpage/portfolio.html')
+    

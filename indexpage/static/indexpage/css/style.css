@@ -2018,3 +2018,431 @@ form label {
   display: flex;
   justify-content: center;
 }
+
+.page-wrapper_ {
+  width: 100%;
+  height: 100%;
+  background: url(https://goo.gl/OeVhun) center no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.blur-it {
+  filter: blur(4px);
+}
+
+a.btn_ {
+  width: 200px;
+  padding: 10px 0;
+  display: block;
+  color: #fff;
+  border-radius: 0;
+  background: #e2525c;
+}
+
+.modal-wrapper {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* background: rgba(41, 171, 164, 0.8); */
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.25s ease-in-out;
+  z-index: 1;
+}
+
+.modal-wrapper.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-wrapper.open .modal {
+  margin-top: -200px;
+  opacity: 1;
+}
+.modal-wrapper1 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* background: rgba(41, 171, 164, 0.8); */
+  visibility: collapse;
+  opacity: 0;
+  transition: all 0.25s ease-in-out;
+  z-index: 1;
+}
+
+.modal-wrapper1.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-wrapper1.open .modal {
+  margin-top: -200px;
+  opacity: 1;
+}
+.modal-wrapper2 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* background: rgba(41, 171, 164, 0.8); */
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.25s ease-in-out;
+  z-index: 1;
+}
+
+.modal-wrapper2.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-wrapper2.open .modal {
+  margin-top: -200px;
+  opacity: 1;
+}
+
+.modal {
+  width: 600px;
+  height: 400px;
+  display: block;
+  margin: 50% 0 0 -300px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  background: #fff;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.head_ {
+  width: 100%;
+  height: 50px;
+  padding: 12px 30px;
+  /* overflow: hidden; */
+  background: #e2525c;
+}
+
+.btn-close {
+  font-size: 25px;
+  display: block;
+  float: right;
+  color: #fff;
+}
+
+.content {
+  padding: 0 10% 10% 10%;
+}
+
+.good-job {
+  text-align: center;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  color: #e2525c;
+}
+.good-job .fa-thumbs-o-up {
+  font-size: 60px;
+}
+.good-job h1 {
+  font-size: 45px;
+}
+
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+  float: none;
+}
+.title {
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 30px;
+  color: #333;
+}
+.link,
+.link:visited {
+  display: inline-block;
+  margin: 20px 0;
+  color: #555;
+  text-decoration: none;
+  font-weight: bold;
+}
+.link:hover,
+.link:focus {
+  color: #9fd6c2;
+}
+/* container - body */
+#container {
+  width: inherit;
+  margin: auto;
+}
+.slide_wrap {
+  position: relative;
+  width: 400px;
+  margin: auto;
+  padding-bottom: 30px;
+}
+.slide_box {
+  width: 100%;
+  margin: auto;
+  overflow-x: hidden;
+}
+.slide_content {
+  display: table;
+  float: left;
+  width: 400px;
+  height: 400px;
+}
+.slide_content > p {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 100px;
+  font-weight: bold;
+  color: #555;
+}
+.slide_content.slide01 {
+  background: #ddbdff;
+}
+.slide_content.slide02 {
+  background: #9fd6c2;
+}
+.slide_content.slide03 {
+  background: #abe2f7;
+}
+.slide_content.slide04 {
+  background: #f08c78;
+}
+.slide_content.slide05 {
+  background: #fbdb65;
+}
+.slide_btn_box > button {
+  position: absolute;
+  top: 50%;
+  margin-top: -45px;
+  width: 60px;
+  height: 60px;
+  font-size: 16px;
+  color: #999;
+  background: none;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+.slide_btn_box > .slide_btn_prev {
+  left: -100px;
+}
+.slide_btn_box > .slide_btn_next {
+  right: -100px;
+}
+.slide_pagination {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  transform: translateX(-50%);
+}
+.slide_pagination .dot {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin: 0 5px;
+  overflow: hidden;
+  background: #ddd;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+.slide_pagination .dot.dot_active {
+  background: #333;
+}
+.slide_pagination .dot a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/*asdadasdasdasds*/
+li {
+  list-style-type: none;
+} /* 보여줄 구간의 높이와 넓이 설정 */
+#slideShow {
+  width: 500px;
+  height: 300px;
+  position: relative;
+  margin: 50px auto;
+  overflow: hidden; /*리스트 형식으로 이미지를 일렬로 정렬할 것이기 때문에, 500px 밖으로 튀어 나간 이미지들은 hidden으로 숨겨줘야됨*/
+}
+.slides {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 2500px; /* 슬라이드할 사진과 마진 총 넓이 */
+  transition: left 0.5s ease-out; /*ease-out: 처음에는 느렸다가 점점 빨라짐*/
+} /* 첫 번째 슬라이드 가운데에 정렬하기위해 첫번째 슬라이드만 margin-left조정 */
+.slides li:first-child {
+  margin-left: 100px;
+} /* 슬라이드들 옆으로 정렬 */
+.slides li:not(:last-child) {
+  float: left;
+  margin-right: 100px;
+}
+.slides li {
+  float: left;
+}
+.controller span {
+  position: absolute;
+  background-color: transparent;
+  color: black;
+  text-align: center;
+  border-radius: 50%;
+  padding: 10px 20px;
+  top: 50%;
+  font-size: 1.3em;
+  cursor: pointer;
+} /* 이전, 다음 화살표에 마우스 커서가 올라가 있을때 */
+.controller span:hover {
+  background-color: rgba(128, 128, 128, 0.11);
+}
+.prev {
+  left: 10px;
+} /* 이전 화살표에 마우스 커서가 올라가 있을때 이전 화살표가 살짝 왼쪽으로 이동하는 효과*/
+.prev:hover {
+  transform: translateX(-10px);
+}
+.next {
+  right: 10px;
+} /* 다음 화살표에 마우스 커서가 올라가 있을때 이전 화살표가 살짝 오른쪽으로 이동하는 효과*/
+.next:hover {
+  transform: translateX(10px);
+}
+
+#slideShow1 {
+  width: 500px;
+  height: 300px;
+  position: relative;
+  margin: 50px auto;
+  overflow: hidden; /*리스트 형식으로 이미지를 일렬로 정렬할 것이기 때문에, 500px 밖으로 튀어 나간 이미지들은 hidden으로 숨겨줘야됨*/
+}
+.slides1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 2500px; /* 슬라이드할 사진과 마진 총 넓이 */
+  transition: left 0.5s ease-out; /*ease-out: 처음에는 느렸다가 점점 빨라짐*/
+} /* 첫 번째 슬라이드 가운데에 정렬하기위해 첫번째 슬라이드만 margin-left조정 */
+.slides1 li:first-child {
+  margin-left: 100px;
+} /* 슬라이드들 옆으로 정렬 */
+.slides1 li:not(:last-child) {
+  float: left;
+  margin-right: 100px;
+}
+.slides1 li {
+  float: left;
+}
+.controller1 span {
+  position: absolute;
+  background-color: transparent;
+  color: black;
+  text-align: center;
+  border-radius: 50%;
+  padding: 10px 20px;
+  top: 50%;
+  font-size: 1.3em;
+  cursor: pointer;
+} /* 이전, 다음 화살표에 마우스 커서가 올라가 있을때 */
+.controller1 span:hover {
+  background-color: rgba(128, 128, 128, 0.11);
+}
+.prev1 {
+  left: 10px;
+} /* 이전 화살표에 마우스 커서가 올라가 있을때 이전 화살표가 살짝 왼쪽으로 이동하는 효과*/
+.prev1:hover {
+  transform: translateX(-10px);
+}
+.next1 {
+  right: 10px;
+} /* 다음 화살표에 마우스 커서가 올라가 있을때 이전 화살표가 살짝 오른쪽으로 이동하는 효과*/
+.next1:hover {
+  transform: translateX(10px);
+}
+
+#slideShow2 {
+  width: 500px;
+  height: 300px;
+  position: relative;
+  margin: 50px auto;
+  overflow: hidden; /*리스트 형식으로 이미지를 일렬로 정렬할 것이기 때문에, 500px 밖으로 튀어 나간 이미지들은 hidden으로 숨겨줘야됨*/
+}
+.slides2 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 2500px; /* 슬라이드할 사진과 마진 총 넓이 */
+  transition: left 0.5s ease-out; /*ease-out: 처음에는 느렸다가 점점 빨라짐*/
+} /* 첫 번째 슬라이드 가운데에 정렬하기위해 첫번째 슬라이드만 margin-left조정 */
+.slides2 li:first-child {
+  margin-left: 100px;
+} /* 슬라이드들 옆으로 정렬 */
+.slides2 li:not(:last-child) {
+  float: left;
+  margin-right: 100px;
+}
+.slides2 li {
+  float: left;
+}
+.slide2 li p {
+  display: inline-block;
+  text-align: center;
+}
+.slides2 li img {
+  width: 232px;
+  height: 300px;
+  border-radius: 50%;
+}
+.slides li img {
+  width: 232px;
+  height: 300px;
+  border-radius: 50%;
+}
+.slides1 li img {
+  width: 232px;
+  height: 300px;
+  border-radius: 50%;
+}
+.controller2 span {
+  position: absolute;
+  background-color: transparent;
+  color: black;
+  text-align: center;
+  border-radius: 50%;
+  padding: 10px 20px;
+  top: 50%;
+  font-size: 1.3em;
+  cursor: pointer;
+} /* 이전, 다음 화살표에 마우스 커서가 올라가 있을때 */
+.controller2 span:hover {
+  background-color: rgba(128, 128, 128, 0.11);
+}
+.prev2 {
+  left: 10px;
+} /* 이전 화살표에 마우스 커서가 올라가 있을때 이전 화살표가 살짝 왼쪽으로 이동하는 효과*/
+.prev2:hover {
+  transform: translateX(-10px);
+}
+.next2 {
+  right: 10px;
+} /* 다음 화살표에 마우스 커서가 올라가 있을때 이전 화살표가 살짝 오른쪽으로 이동하는 효과*/
+.next2:hover {
+  transform: translateX(10px);
+}
