@@ -1,22 +1,26 @@
 {% extends './base.html' %}
 {% load static %}
 {% block content %}
-  <header id="gtco-header" class="gtco-cover" role="banner">
+  <header id="gtco-header" class="gtco-cover" role="banner" style = 'height:600px'>
     <div class="gtco-container">
       <div class="row">
-        <div class="col-md-12 col-md-offset-0 text-left">
+        <div class="col-md-12 col-md-offset-0 text-left" >
           <div class="display-t">
             <div class="display-tc">
-              <div class="row">
+              <div class="row" style = 'padding-bottom:230px'>
                 <div class="col-md-5 text-center header-img animate-box">
-                  <img class='custom_log_size_front' src="{% static 'indexpage/images/public_safety.png' %}" alt="Free HTML5 Website Template by FreeHTML5.co">
+                  <img class='custom_log_size_front' src="{% static 'indexpage/images/public_safety.png' %}" style="width:500px; height:500px;" alt="Free HTML5 Website Template by FreeHTML5.co">
                 </div>
-                <div class="col-md-7 copy animate-box">
-                  <h1>Public Safety, Make your feel stay</h1>
-                  <p>Combine with Big Data Analsis</p>
-                  <p>
-                    <a href="http://freehtml5.co" target="_blank" class="btn btn-white">Visit Our Lab</a>
-                  </p>
+                <div class="col-md-7 copy animate-box text-center" style='margin-top:80px; padding-left:60px;'>
+                  <h1 class='p2k' style="font-weight:500">Department of 
+                    <br>
+                    Public Safety 
+                    BigData</h1>
+                    <p class='p2k'>
+                      <span style="font-size:45px">공공안전빅데이터학과</span>
+                      <br>
+                     <span style="font-size:30px">경기대학교 일반대학원</span>
+                    </p>
                 </div>
               </div>
             </div>
@@ -27,47 +31,28 @@
   </header>
   <!-- END #gtco-header -->
 
-  <div class="gtco-client">
-    <div class="gtco-container">
-      <div class="row">
-        <div class="col-md-2 col-md-offset-1 text-center client col-sm-6 col-xs-6 col-xs-offset-0 col-sm-offset-0">
-          <img class='symbol_size' src="{% static 'indexpage/images/KGU_logo.png' %}" alt="Free Website Template by FreeHTML5.co" class="img-responsive">
-        </div>
-        <div class="col-md-2 text-center client col-sm-6 col-xs-6 col-xs-offset-0 col-sm-offset-0">
-          <img class='symbol_size'src="{% static 'indexpage/images/logo_2.png' %}" alt="Free Website Template by FreeHTML5.co" class="img-responsive">
-        </div>
-        <div class=" col-md-2 text-center client col-sm-6 col-xs-6 col-xs-offset-0 col-sm-offset-0">
-          <img class = 'symbol_size' src="{% static 'indexpage/images/logo_3.png' %}" alt="Free Website Template by FreeHTML5.co" class="img-responsive">
-        </div>
-        {% comment %} <div class="col-md-2 text-center client col-sm-6 col-xs-6 col-xs-offset-0 col-sm-offset-0">
-          <img src="images/client_4.png" alt="Free Website Template by FreeHTML5.co" class="img-responsive">
-        </div>
-        <div class="col-md-2 text-center client col-sm-6 col-xs-6 col-xs-offset-0 col-sm-offset-0">
-          <img src="images/client_5.png" alt="Free Website Template by FreeHTML5.co" class="img-responsive">
-        </div> {% endcomment %}
-      </div>
-    </div>
-  </div>
+  
   <!-- END .gtco-client -->
 
   <div class="gtco-services gtco-section">
     <div class="gtco-container">
-      <div class="row row-pb-sm">
-        <div class="col-md-8 col-md-offset-2 gtco-heading text-center">
-          <h2>Easy to understand</h2>
-          <p>Click the button to see What We Bulid!</p>
-          <p>
-            <a href="https://vimeo.com/channels/staffpicks/93951774" class="btn btn-special popup-vimeo">Watch The Video</a>
-          </p>
-        </div>
-      </div>
       <div class="row row-pb-md">
+         <div class="col-md-8 col-md-offset-2 gtco-heading text-center">
+          <h2>공공안전빅데이터학과</h2>
+          <p>세부연구소</p>
+        </div>
         <div class="col-md-4 col-sm-4 service-wrap">
           <div class="service">
             <h3>
               <i class="ti-pie-chart"></i>
-              Predictive Police</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur voluptatibus nesciunt, est alias deleniti ipsum fuga ullam maxime repudiandae neque, ad. Maiores quis atque, culpa rem inventore vero amet praesentium, quam sint, magnam reprehenderit doloremque.</p>
+              예측 경찰</h3>
+            <p> - 관리자 분석·예측 지능화
+              <br>
+                - 정보보안블록체인트워크컴퓨팅기술
+                <br>
+                - 인공지능·빅데이터플랫폼기술
+                <br>
+                - 범죄학·컴퓨터과학·수학·통계학</p>
                     
             <div class="page-wrapper_">
               <a class="btn_ trigger" href="#">click me</a>
@@ -85,22 +70,28 @@
                       <ul class="slides2">
                         <li>
                           <p style="text-align:center; font-size:20px; color:black;">Lee su jung</p>
-                          <img src="{% static 'indexpage/images/professors/professor_1.png' %}" alt=""></li>
-                        <li>
-                          <p style="text-align:center; font-size:20px; color:black;">Lee su jung</p>
-                          <img src="{% static 'indexpage/images/professors/professor_2.jpg' %}" alt=""></li>
-                        <li>
-                          <p style="text-align:center; font-size:20px; color:black;">Lee su jung</p>
-                          <img src="{% static 'indexpage/images/professors/professor_3.jpg' %}" alt=""></li>
-                        <li>
-                          <p style="text-align:center; font-size:20px; color:black;">Lee su jung</p>
                           <img src="{% static 'indexpage/images/professors/professor_4.png' %}" alt=""></li>
+                        <li>
+                          <p style="text-align:center; font-size:20px; color:black;">Lee su jung</p>
+                          <img src="{% static 'indexpage/images/professors/professor_10.png' %}" alt=""></li>
+                        <li>
+                          <p style="text-align:center; font-size:20px; color:black;">Lee su jung</p>
+                          <img src="{% static 'indexpage/images/professors/professor_13.gif' %}" alt=""></li>
+                        <li>
+                          <p style="text-align:center; font-size:20px; color:black;">Lee su jung</p>
+                          <img src="{% static 'indexpage/images/professors/professor_9.jpg' %}" alt=""></li>
+                        <li>
+                          <p style="text-align:center; font-size:20px; color:black;">Lee su jung</p>
+                          <img src="{% static 'indexpage/images/professors/professor_8.jpg' %}" alt=""></li>
                         <li>
                           <p style="text-align:center; font-size:20px; color:black;">Lee su jung</p>
                           <img src="{% static 'indexpage/images/professors/professor_5.png' %}" alt=""></li>
                         <li>
                           <p style="text-align:center; font-size:20px; color:black;">Lee su jung</p>
-                          <img src="{% static 'indexpage/images/professors/professor_6.png' %}" alt=""></li>
+                          <img src="{% static 'indexpage/images/professors/professor_14.png' %}" alt=""></li>
+                        <li>
+                          <p style="text-align:center; font-size:20px; color:black;">Lee su jung</p>
+                          <img src="{% static 'indexpage/images/professors/professor_15.png' %}" alt=""></li>
                       </ul>
                       <p class="controller2">
                         <!-- &lang: 왼쪽 방향 화살표 &rang: 오른쪽 방향 화살표 -->
@@ -118,8 +109,14 @@
           <div class="service animate-change">
             <h3>
               <i class="ti-ruler-pencil"></i>
-              Predictive Control</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima quidem quae, assumenda dolores ad pariatur! Deleniti debitis, voluptatem! Omnis enim magnam perspiciatis, natus. Ipsum distinctio, voluptatibus vero laboriosam sequi! Officia fuga quam eveniet quo similique!</p>
+              예측 제어</h3>
+            <p> - 조정자 분석·예측 지능화
+              <br>
+ - 정보보안블록체인트워크컴퓨팅기술
+ <br>
+ - 인공지능·빅데이터플랫폼기술
+ <br>
+ - 범죄학·컴퓨터과학·수학·통계학</p>
             <div class="page-wrapper_">
               <a class="btn_ trigger1" href="#">click me</a>
             </div>
@@ -136,7 +133,7 @@
                       <ul class="slides1">
                         <li>
                           <p style="text-align:center; font-size:20px; color:black;">Lee su jung</p>
-                          <img src="{% static 'indexpage/images/professors/professor_1.png' %}" alt=""></li>
+                          <img src="{% static 'indexpage/images/professors/professor_16.png' %}" alt=""></li>
                         <li>
                           <p style="text-align:center; font-size:20px; color:black;">Lee su jung</p>
                           <img src="{% static 'indexpage/images/professors/professor_2.jpg' %}" alt=""></li>
@@ -169,8 +166,14 @@
           <div class="service">
             <h3>
               <i class="ti-settings"></i>
-              Predictive Healing</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta aperiam, maiores officia alias accusantium fugiat, doloremque voluptas, voluptatem dolore vel animi praesentium saepe unde consequuntur, eum asperiores odit aliquam error nulla impedit repellendus. Nesciunt, delectus.</p>
+              예측 치유</h3>
+            <p>- 보호자 분석·예측 지능화
+              <br>
+ - 피해자사회복지지능화/딥러닝학습모델
+ <br>
+ - 피해자빅데이터마이닝·딥러닝분석
+ <br>
+ - 사회복지학·범죄심리학·컴퓨터과학</p>
             <div class="page-wrapper_">
               <a class="btn_ trigger2" href="#">click me</a>
             </div>
@@ -227,89 +230,89 @@
       <div class="row row-pb-sm">
         <div class="col-md-8 col-md-offset-2 gtco-heading text-center">
           <h2>Main Content</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat enim et urna sagittis, rhoncus euismod erat tincidunt. Donec tincidunt volutpat erat.</p>
+          
         </div>
       </div>
       <div class="row row-pb-md">
-        <div class="col-md-4 col-sm-4">
-          <a href="#" class="gtco-item two-row bg-img animate-box" style="background-image: url({% static 'indexpage/images/public_picture/picture1.png' %}); background-size: contain; background-repeat : no-repeat;">
-            <div class="overlay">
+        <div class="anima_custom col-md-4 col-sm-4">
+          <a href="{% url 'portfolio' %}" class="gtco-item two-row bg-img animate-box anima_custom" style="background-image: url({% static 'indexpage/images/public_picture/picture1.png' %}); background-size: contain; background-repeat : no-repeat;">
+            {% comment %} <div class="overlay">
               <i class="ti-arrow-top-right"></i>
               <div class="copy">
                 <h3>Paper Hot Cup</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              </div>
-            </div>
+              </div> 
+            </div> {% endcomment %}
             <img src="{% static 'indexpage/images/public_picture/picture.png' %}" class="hidden" alt="Free HTML5 Website Template by FreeHTML5.co">
           </a>
-          <a href="#" class="gtco-item two-row bg-img animate-box" style="background-image: url({% static 'indexpage/images/public_picture/picture2.png' %}); background-size: contain; background-repeat : no-repeat;">
-            <div class="overlay">
+          <a href="{% url 'portfolio' %}" class="gtco-item two-row bg-img animate-box" style="background-image: url({% static 'indexpage/images/public_picture/picture2.png' %}); background-size: contain; background-repeat : no-repeat;">
+            {% comment %} <div class="overlay">
               <i class="ti-arrow-top-right"></i>
               <div class="copy">
                 <h3>Notepad Mockup</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
               </div>
-            </div>
+            </div> {% endcomment %}
             <img src="images/img_2.jpg" class="hidden" alt="Free HTML5 Website Template by FreeHTML5.co">
           </a>
         </div>
         <div class="col-md-4 col-sm-4">
-          <a href="#" class="gtco-item two-row bg-img animate-box" style="background-image: url({% static 'indexpage/images/public_picture/picture3.png' %}); background-size: contain; background-repeat : no-repeat;">
-            <div class="overlay">
+          <a href="{% url 'portfolio' %}" class="gtco-item two-row bg-img animate-box" style="background-image: url({% static 'indexpage/images/public_picture/picture3.png' %}); background-size: contain; background-repeat : no-repeat;">
+            {% comment %} <div class="overlay">
               <i class="ti-arrow-top-right"></i>
               <div class="copy">
                 <h3>Paper Pouch</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
               </div>
-            </div>
+            </div> {% endcomment %}
             <img src="images/img_md_1.jpg" class="hidden" alt="Free HTML5 Website Template by FreeHTML5.co">
           </a>
-          <a href="#" class="gtco-item two-row bg-img animate-box" style="background-image: url({% static 'indexpage/images/public_picture/picture6.png' %}); background-size: contain; background-repeat : no-repeat;">
-            <div class="overlay">
+          <a href="{% url 'portfolio' %}" class="gtco-item two-row bg-img animate-box" style="background-image: url({% static 'indexpage/images/public_picture/picture6.png' %}); background-size: contain; background-repeat : no-repeat;">
+            {% comment %} <div class="overlay">
               <i class="ti-arrow-top-right"></i>
               <div class="copy">
                 <h3>Paper Pouch</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
               </div>
-            </div>
+            </div> {% endcomment %}
             <img src="images/img_md_1.jpg" class="hidden" alt="Free HTML5 Website Template by FreeHTML5.co">
           </a>
         </div>
         <div class="col-md-4 col-sm-4">
-          <a href="#" class="gtco-item two-row bg-img animate-box" style="background-image: url({% static 'indexpage/images/public_picture/picture4.png' %}); background-size: contain; background-repeat : no-repeat;">
-            <div class="overlay">
+          <a href="{% url 'portfolio' %}" class="gtco-item two-row bg-img animate-box" style="background-image: url({% static 'indexpage/images/public_picture/picture4.png' %}); background-size: contain; background-repeat : no-repeat;">
+            {% comment %} <div class="overlay">
               <i class="ti-arrow-top-right"></i>
               <div class="copy">
                 <h3>Fancy 3D</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
               </div>
-            </div>
+            </div> {% endcomment %}
             <img src="images/img_3.jpg" class="hidden" alt="Free HTML5 Website Template by FreeHTML5.co">
           </a>
-          <a href="#" class="gtco-item two-row bg-img animate-box" style="background-image: url({% static 'indexpage/images/public_picture/picture5.png' %}); background-size: contain; background-repeat : no-repeat;">
-            <div class="overlay">
+          <a href="{% url 'portfolio' %}" class="gtco-item two-row bg-img animate-box" style="background-image: url({% static 'indexpage/images/public_picture/picture5.png' %}); background-size: contain; background-repeat : no-repeat;">
+            {% comment %} <div class="overlay">
               <i class="ti-arrow-top-right"></i>
               <div class="copy">
                 <h3>Hard Cover Book</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
               </div>
-            </div>
+            </div> {% endcomment %}
             <img src="images/img_4.jpg" class="hidden" alt="Free HTML5 Website Template by FreeHTML5.co">
           </a>
         </div>
       </div>
-      <div class="row">
+      {% comment %} <div class="row">
         <div class="col-md-12 text-center">
           <p>
             <a href="http://freehtml5.co" target="_blank" class="btn btn-special">Visit Gettemplates.co</a>
           </p>
         </div>
-      </div>
+      </div> {% endcomment %}
     </div>
   </div>
   <!-- END .gtco-products -->
 
-  <div class="gtco-section gtco-testimonial gtco-gray">
+  {% comment %} <div class="gtco-section gtco-testimonial gtco-gray">
     <div class="gtco-container">
 
       <div class="row row-pb-sm">
@@ -367,8 +370,32 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> {% endcomment %} 
 
+  <div class="gtco-client">
+    <div class="gtco-container">
+      <div class="row">
+        <div class="col-md-2 col-md-offset-1 text-center client col-sm-6 col-xs-6 col-xs-offset-0 col-sm-offset-0">
+          <a href="#"><img class='symbol_size' src="{% static 'indexpage/images/KGU_logo.png' %}" alt="Free Website Template by FreeHTML5.co" class="img-responsive"></a>
+          <p>경기대학교</p>
+        </div>
+        <div class="col-md-2 text-center client col-sm-6 col-xs-6 col-xs-offset-0 col-sm-offset-0">
+          <a href="#"><img class='symbol_size'src="{% static 'indexpage/images/logo_2.png' %}" alt="Free Website Template by FreeHTML5.co" class="img-responsive"></a>
+          <p>데이터&프로세스 <br>엔지니어링 연구소</p>
+        </div>
+        <div class=" col-md-2 text-center client col-sm-6 col-xs-6 col-xs-offset-0 col-sm-offset-0">
+          <a href="#"><img class = 'symbol_size' src="{% static 'indexpage/images/logo_3.png' %}" alt="Free Website Template by FreeHTML5.co" class="img-responsive"></a>
+          <p>컨텐츠융합연구소</p>
+        </div>
+        {% comment %} <div class="col-md-2 text-center client col-sm-6 col-xs-6 col-xs-offset-0 col-sm-offset-0">
+          <img src="images/client_4.png" alt="Free Website Template by FreeHTML5.co" class="img-responsive">
+        </div>
+        <div class="col-md-2 text-center client col-sm-6 col-xs-6 col-xs-offset-0 col-sm-offset-0">
+          <img src="images/client_5.png" alt="Free Website Template by FreeHTML5.co" class="img-responsive">
+        </div> {% endcomment %}
+      </div>
+    </div>
+  </div>
  
 
 
